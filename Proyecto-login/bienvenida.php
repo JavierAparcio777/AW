@@ -11,6 +11,7 @@ if (!isset($_SESSION['usuario'])) {
     <meta charset="UTF-8">
     <title>Bienvenida</title>
     <link rel="stylesheet" href="estilos.css">
+    
 </head>
 <body>
     <h1>Bienvenido, <?php echo $_SESSION['usuario']; ?></h1>
